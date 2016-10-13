@@ -21,3 +21,6 @@ const myBoundTurnOn = turnOn.myBind(lamp);
 
 boundTurnOn(); // should say "Turning on a lamp"
 myBoundTurnOn(); // should say "Turning on a lamp"
+
+bark.call(cat)
+cat.bark
